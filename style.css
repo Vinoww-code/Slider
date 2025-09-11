@@ -12,8 +12,8 @@ body {
 .slider-container {
     position: absolute;
     width: 90%;
-    max-width: 1200px;
-    height: 500px;
+    max-width: 1400px;
+    height: 700px;
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 12px;
@@ -66,7 +66,9 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: white;
+    background: transparent;
+    border: none;
+    box-shadow: 0px 0px 2px #ffffff;
     font-size: 2rem;
     padding: 15px;
     cursor: pointer;
@@ -78,14 +80,18 @@ body {
     transition: background-color 0.3s ease;
     z-index: 10;
 }
+.nav:hover{
+    background-color: white;
+    box-shadow: 0px 0px 8px #646464;
+}
 
 .nav.prev{
     left: 0;
-    border-radius: 0 20% 20% 0;
+    border-radius: 50%;
 }
 .nav.next{
     right: 0;
-    border-radius: 20% 0 0 20%;
+    border-radius: 50%;
 }
 
 .dots-container {
@@ -101,7 +107,7 @@ body {
 .dot {
     width: 12px;
     height: 12px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.26);
     border-radius: 50%;
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
