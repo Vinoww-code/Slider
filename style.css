@@ -1,7 +1,7 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #f0f2f5;
+    background-color: #4b4b4b;
 }
 
 .slider-layout{
@@ -17,7 +17,7 @@ body {
     margin: 0 auto;
     margin-top: 100px;
     border-radius: 12px;
-    box-shadow: 0 10px 25px #f0f2f5;
+    box-shadow: 0 10px 25px #7c7c7c;
     overflow: hidden;
 }
 
